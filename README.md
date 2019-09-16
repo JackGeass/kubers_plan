@@ -1,4 +1,5 @@
 | progress | task                                                   | role     | deadline |
+|----------|--------------------------------------------------------|----------|----------|
 | x        | add account info api                                   | jack     |          |
 |          | add account logout                                     | jack     |          |
 |          | phone-vaild-code change to number only                 | jack     |          |
