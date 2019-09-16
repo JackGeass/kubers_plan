@@ -16,4 +16,7 @@
 |          | k8s resouces schedule lable match                   | linkscue |          |
 | plan     | charging system                                     |          |          |
 | plan     | shopping system                                     |          |          |
-| plan     | multi-cluster system                                |          |
+| plan     | multi-cluster system                                |          |          |
+| plan     | harbor rbac                                         |          |          |
+| plan     | harbor storage                                      |          |          |
+| plan     | helm rbac                                           |          |          |
