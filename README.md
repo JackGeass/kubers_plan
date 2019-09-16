@@ -14,3 +14,6 @@
 |          | web about account apply for namespace & kube-config | hh       |          |
 |          | storage class/pv-pvc helm  scheme                   | linkscue |          |
 |          | k8s resouces schedule lable match                   | linkscue |          |
+| plan     | charging system                                     |          |          |
+| plan     | shopping system                                     |          |          |
+| plan     | multi-cluster system                                |          |
