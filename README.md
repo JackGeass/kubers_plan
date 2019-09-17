@@ -1,7 +1,6 @@
 | progress | task                                                | role     | deadline | finish-date |
 |----------|-----------------------------------------------------|----------|----------|-------------|
-| x        | add account info api                                | jack     |          |             |
-|          | split dev & test enviroment                         | jack     | 09-17    |             |
+|          | [BUG] fix account info api                          | jack     | 09-17    |             |
 |          | add account logout api                              | jack     | 09-17    |             |
 |          | phone-vaild-code change to number only              | jack     | 09-17    |             |
 |          | token save into redis                               | jack     |          |             |
@@ -21,3 +20,5 @@
 | plan     | harbor rbac                                         |          |          |             |
 | plan     | harbor storage                                      |          |          |             |
 | plan     | helm rbac                                           |          |          |             |
+| x        | add account info api                                | jack     |          |             |
+| x        | split dev & test enviroment                         | jack     | 09-17    |             |
