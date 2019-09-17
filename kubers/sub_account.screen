@@ -14,36 +14,38 @@
     <items link="monitor.screen" x="0" y="125" width="128" height="41" text="运维监控"/>
   </widgets>
   <widgets xsi:type="model:HLine" id="24" x="143" y="96" width="665" measuredWidth="665" measuredHeight="6"/>
-  <widgets xsi:type="model:Label" id="25" x="71" y="87" text="Kubers" measuredWidth="68" measuredHeight="29" textAlignment="Center">
+  <widgets xsi:type="model:Label" id="25" x="71" y="87" text="Kubers" measuredWidth="66" measuredHeight="33" textAlignment="Center">
     <font size="18px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:VLine" id="26" x="140" y="66" height="71" measuredWidth="6" measuredHeight="71"/>
-  <widgets xsi:type="model:Label" id="27" x="577" y="73" text="费用" measuredWidth="35" measuredHeight="23" textAlignment="Center">
+  <widgets xsi:type="model:Label" id="27" x="577" y="73" text="费用" measuredWidth="39" measuredHeight="28" textAlignment="Center">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Popup" id="28" x="720" y="69" text="{user} 宋江" measuredWidth="60" measuredHeight="29" customId="user_popup">
-    <items x="0" y="2" width="60" height="25" text="{user} 宋江"/>
+  <widgets xsi:type="model:Popup" id="28" x="720" y="69" text="{user} 宋江" measuredWidth="65" measuredHeight="34" customId="user_popup">
+    <items x="0" y="2" width="65" height="30" text="{user} 宋江"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="29" x="168" y="168" text="子账号列表" measuredWidth="88" measuredHeight="25">
+  <widgets xsi:type="model:Label" id="29" x="168" y="168" text="子账号列表" measuredWidth="104" measuredHeight="30">
     <font size="16px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="50" x="168" y="352" text="权限管理" measuredWidth="72" measuredHeight="25">
+  <widgets xsi:type="model:Label" id="50" x="168" y="352" text="权限管理" measuredWidth="84" measuredHeight="30">
     <font size="16px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Table" id="51" x="168" y="208" width="593" text="显示名称/用户登录名称,备注,创建时间,权限,操作&#xA;Peter\nPeter@sxyhhe.kubers.com,Severin,2019-06-26,[容器操作],[编辑权限]&#xA;Henri\nHenri@sxyhhe.kubers.com,Severin,2019-07-20,[root],[编辑权限]" measuredWidth="593" measuredHeight="107" alternative="#eee">
+  <widgets xsi:type="model:Table" id="51" x="154" y="208" width="645" text="显示名称/用户登录名称,备注,创建时间,账号权限,容器集群权限,kubeconfig&#xA;Peter\nPeter@sxyhhe.kubers.com,Severin,2019-06-26,[容器操作],[编辑权限],[新建]&#xA;Henri\nHenri@sxyhhe.kubers.com,Severin,2019-07-20,[root],[编辑权限],[下载-重新生成-删除]" measuredWidth="645" measuredHeight="128" alternative="#eee">
     <font/>
-    <items x="425" y="35" width="58" height="15" text="容器操作"/>
-    <items x="510" y="35" width="58" height="15" text="编辑权限"/>
-    <items x="425" y="74" width="27" height="17" text="root"/>
-    <items x="510" y="75" width="58" height="15" text="编辑权限"/>
+    <items x="330" y="42" width="66" height="20" text="容器操作"/>
+    <items x="407" y="42" width="66" height="20" text="编辑权限"/>
+    <items x="517" y="42" width="33" height="20" text="新建"/>
+    <items x="330" y="90" width="27" height="20" text="root"/>
+    <items x="407" y="90" width="66" height="20" text="编辑权限"/>
+    <items x="517" y="90" width="143" height="20" text="下载-重新生成-删除"/>
   </widgets>
-  <widgets xsi:type="model:Button" id="52" x="669" y="172" text="创建子账号" measuredWidth="92" measuredHeight="25" background="#674ea7">
+  <widgets xsi:type="model:Button" id="52" x="669" y="172" text="创建子账号" measuredWidth="103" measuredHeight="30" background="#674ea7">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Link" id="54" x="288" y="119" text="https://signin.kubers.com/sxyhhe.kubers.com/login.htm" measuredWidth="318" measuredHeight="23">
+  <widgets xsi:type="model:Link" id="54" x="288" y="119" text="https://signin.kubers.com/sxyhhe.kubers.com/login.htm" measuredWidth="298" measuredHeight="24">
     <font size="12px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="55" x="168" y="120" text="子账号登录地址：" measuredWidth="121" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="55" x="168" y="120" text="子账号登录地址：" measuredWidth="138" measuredHeight="28">
     <font/>
   </widgets>
   <hRuler/>
