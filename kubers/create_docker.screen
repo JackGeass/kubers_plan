@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="8" x="16" y="16" width="793" height="657" text="Browser&#xA;http://www.kubers.com/createdocker" measuredWidth="793" measuredHeight="657">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="21" x="190" y="132" width="137" measuredWidth="137" measuredHeight="6"/>
+  <widgets xsi:type="model:Callout" id="22" x="86" y="120" text="1" measuredWidth="27" measuredHeight="27">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="23" x="119" y="125" text="选择配置" measuredWidth="64" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Hotspot" id="24" x="17" y="41" width="26" height="17" measuredWidth="26" measuredHeight="17" link="dashboard.screen"/>
+  <widgets xsi:type="model:Callout" id="25" x="340" y="120" text="2" measuredWidth="27" measuredHeight="27" background="#f3f3f3">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="26" x="373" y="123" text="docker配置" measuredWidth="79" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="31" x="460" y="132" width="137" measuredWidth="137" measuredHeight="6"/>
+  <widgets xsi:type="model:Callout" id="32" x="603" y="122" text="3" measuredWidth="27" measuredHeight="27" background="#eee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="33" x="636" y="125" text="确认订单" measuredWidth="64" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="35" x="86" y="192" text="服务器" measuredWidth="49" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="36" x="86" y="224" text="(o) cup 2核， 内存 4G&#xA;( )  cup 1核， 内存 2G&#xA;( )  cup 4核， 内存 8G&#xA;( )  cup 8核， 内存 16G" measuredWidth="165" measuredHeight="96" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="165" height="23" text="(o) cup 2核， 内存 4G"/>
+    <items x="0" y="25" width="165" height="23" text="( )  cup 1核， 内存 2G"/>
+    <items x="0" y="48" width="165" height="23" text="( )  cup 4核， 内存 8G"/>
+    <items x="0" y="71" width="165" height="23" text="( )  cup 8核， 内存 16G"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="37" x="96" y="448" text="硬盘存储" measuredWidth="64" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HSlider" id="38" x="96" y="488" width="204" measuredWidth="204" measuredHeight="17"/>
+  <widgets xsi:type="model:TextField" id="39" x="131" y="520" text="20G" measuredWidth="40" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="40" x="680" y="576" text="下一步" measuredWidth="63" measuredHeight="25" background="#674ea7" link="create_docker2.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="41" x="86" y="352" text="基础镜像" measuredWidth="64" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="43" x="86" y="392" text="centos 7.4" measuredWidth="97" measuredHeight="25">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="14px"/>
+</model:Screen>

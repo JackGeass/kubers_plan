@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="8" x="16" y="16" width="793" height="657" text="Browser&#xA;http://www.kubers.com/resetpwd" measuredWidth="793" measuredHeight="657">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="19" x="272" y="192" width="241" height="289" measuredWidth="241" measuredHeight="289">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="21" x="312" y="350" width="161" text="输入新密码" measuredWidth="161" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="22" x="312" y="400" width="161" text="确定" measuredWidth="161" measuredHeight="25" background="#674ea7" link="login.screen">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="23" x="411" y="441" text="返回登录" measuredWidth="61" measuredHeight="23" link="login.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="24" x="353" y="208" text="找回密码" measuredWidth="80" measuredHeight="27" textAlignment="Center">
+    <font size="18px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="25" x="311" y="309" width="73" text="验证码" measuredWidth="73" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="27" x="391" y="309" width="81" text="获取验证码" measuredWidth="81" measuredHeight="25" background="#674ea7">
+    <font bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="28" x="312" y="261" width="161" text="手机号/邮箱" measuredWidth="161" measuredHeight="25">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="14px"/>
+</model:Screen>

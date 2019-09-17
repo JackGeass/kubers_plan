@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="8" x="16" y="16" width="793" height="657" text="Browser&#xA;http://www.kubers.com/dashboard" measuredWidth="793" measuredHeight="657">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="23" x="679" y="76" measuredWidth="16" measuredHeight="16" icon="bell (small)"/>
+  <widgets xsi:type="model:Icon" id="24" x="635" y="76" measuredWidth="16" measuredHeight="16" icon="book (small)" link="documents.screen"/>
+  <widgets xsi:type="model:Image" id="27" x="23" y="82" width="47" height="39" measuredWidth="47" measuredHeight="39"/>
+  <widgets xsi:type="model:List" id="28" x="17" y="136" width="128" height="537" text="概览&#xA;容器资源&#xA;硬盘资源&#xA;运维监控&#xA;" measuredWidth="128" measuredHeight="537" selection="1" rowHeight="41" horizontalLines="true">
+    <font bold="false"/>
+    <items x="0" y="2" width="128" height="41" text="概览"/>
+    <items x="0" y="43" width="128" height="41" text="容器资源"/>
+    <items x="0" y="84" width="128" height="41" text="硬盘资源"/>
+    <items x="0" y="125" width="128" height="41" text="运维监控"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="26" x="143" y="96" width="665" measuredWidth="665" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="43" x="71" y="87" text="Kubers" measuredWidth="68" measuredHeight="29" textAlignment="Center">
+    <font size="18px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="44" x="140" y="66" height="71" measuredWidth="6" measuredHeight="71"/>
+  <widgets xsi:type="model:Label" id="45" x="577" y="73" text="费用" measuredWidth="35" measuredHeight="23" textAlignment="Center">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="41" x="720" y="68" text="{user} 宋江" measuredWidth="60" measuredHeight="29" customId="user_popup">
+    <items x="0" y="2" width="60" height="25" text="{user} 宋江"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="71" x="171" y="131" text="J20" measuredWidth="37" measuredHeight="26">
+    <font size="16px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="73" x="171" y="176" width="246" height="225" text="基本信息" measuredWidth="246" measuredHeight="225">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="74" x="171" y="416" width="246" height="233" text="续费信息" measuredWidth="246" measuredHeight="233">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="75" x="464" y="176" width="297" height="258" text="运行状态" measuredWidth="297" measuredHeight="258">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="76" x="464" y="456" width="297" height="193" text="网络" measuredWidth="297" measuredHeight="193">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Hotspot" id="77" x="19" y="35" width="23" height="27" measuredWidth="23" measuredHeight="27" link="docker_list.screen"/>
+  <widgets xsi:type="model:Label" id="78" x="184" y="257" text="名称：J20" measuredWidth="75" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="79" x="184" y="292" text="描述：" measuredWidth="49" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="81" x="184" y="360" text="标签：node" measuredWidth="82" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="82" x="227" y="314" text="A *paragraph* of text&#xA;A _second_ row of text" measuredWidth="134" measuredHeight="34">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="83" x="329" y="193" text="远程连接" measuredWidth="78" measuredHeight="25" background="#674ea7">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="84" x="187" y="224" text="实例id：jiodju90jud" measuredWidth="133" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="85" x="481" y="213" text="运行中" measuredWidth="97" measuredHeight="48" textAlignment="Center" icon="assets/gl-play-circle (xlarge)">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="86" x="498" y="278" text="CPU: 1核" measuredWidth="66" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="87" x="498" y="314" text="内存: 2G" measuredWidth="62" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="88" x="498" y="352" text="磁盘: 20G" measuredWidth="71" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="89" x="605" y="353" text="端口：8789" measuredWidth="85" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="90" x="189" y="456" text="付费方式: 包年包月" measuredWidth="129" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="91" x="189" y="504" text="到期日期: 2020年9月20日 21:30" measuredWidth="220" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="92" x="189" y="584" text="创建时间: 2019年9月20日 21:30" measuredWidth="220" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="93" x="189" y="536" text="续费方式:" measuredWidth="68" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="94" x="255" y="536" text="手动续费/自动续费" measuredWidth="125" measuredHeight="25" foreground="#f00">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="95" x="661" y="276" text="复位容器" measuredWidth="78" measuredHeight="25" background="#674ea7">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="96" x="687" y="200" text="停止" measuredWidth="49" measuredHeight="25" background="#674ea7">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="97" x="687" y="236" text="重启" measuredWidth="49" measuredHeight="25" background="#674ea7">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Chart" id="100" x="512" y="496" width="223" height="105" measuredWidth="223" measuredHeight="105" chartType="line"/>
+  <widgets xsi:type="model:Label" id="101" x="481" y="560" text="10k" measuredWidth="32" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="102" x="481" y="528" text="20k" measuredWidth="32" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="103" x="481" y="496" text="30k" measuredWidth="32" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="104" x="579" y="608" text="网络带宽bps" measuredWidth="88" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="105" x="665" y="552" text="出网" measuredWidth="35" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="106" x="650" y="497" text="入网" measuredWidth="35" measuredHeight="23" foreground="#999">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="107" x="738" y="600" text="t" measuredWidth="11" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="108" x="605" y="313" text="ip地址：47.98.30.21" measuredWidth="144" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="109" x="701" y="356" text="修改" measuredWidth="32" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="110" x="498" y="392" text="硬盘挂载: /mount/sd0" measuredWidth="146" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="111" x="656" y="395" text="修改" measuredWidth="32" measuredHeight="23">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="14px"/>
+</model:Screen>

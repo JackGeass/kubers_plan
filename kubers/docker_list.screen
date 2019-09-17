@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="8" x="16" y="16" width="793" height="657" text="Browser&#xA;http://www.kubers.com/dashboard" measuredWidth="793" measuredHeight="657">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="23" x="679" y="76" measuredWidth="16" measuredHeight="16" icon="bell (small)"/>
+  <widgets xsi:type="model:Icon" id="24" x="635" y="76" measuredWidth="16" measuredHeight="16" icon="book (small)" link="documents.screen"/>
+  <widgets xsi:type="model:Image" id="27" x="23" y="82" width="47" height="39" measuredWidth="47" measuredHeight="39"/>
+  <widgets xsi:type="model:List" id="28" x="17" y="136" width="128" height="537" text="概览&#xA;容器资源&#xA;硬盘资源&#xA;运维监控&#xA;" measuredWidth="128" measuredHeight="537" selection="1" rowHeight="41" horizontalLines="true">
+    <font bold="false"/>
+    <items link="dashboard.screen" x="0" y="2" width="128" height="41" text="概览"/>
+    <items x="0" y="43" width="128" height="41" text="容器资源"/>
+    <items x="0" y="84" width="128" height="41" text="硬盘资源"/>
+    <items link="monitor.screen" x="0" y="125" width="128" height="41" text="运维监控"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="26" x="143" y="96" width="665" measuredWidth="665" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="43" x="71" y="87" text="Kubers" measuredWidth="68" measuredHeight="29" textAlignment="Center">
+    <font size="18px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="44" x="140" y="66" height="71" measuredWidth="6" measuredHeight="71"/>
+  <widgets xsi:type="model:Label" id="45" x="577" y="73" text="费用" measuredWidth="35" measuredHeight="23" textAlignment="Center">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="41" x="720" y="68" text="{user} 宋江" measuredWidth="60" measuredHeight="29" customId="user_popup">
+    <items x="0" y="2" width="60" height="25" text="{user} 宋江"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="70" x="160" y="165" width="614" height="209" text="实例id/名称, 标签, ip地址,状态,网络类型, 配置, 付费方式, 操作&#xA;[jiodju90jud]\nJ20  [{edit}],[{tag}] centos,10.98.38.38,运行中,私有网络,CPU2核\n内存4G\n硬盘40G,包年\n2020/10/26到期,[重启]\n[停止]&#xA;[jiodju90jud]\nJ10  [{edit}],[{tag}] centos,10.98.38.38,停止,私有网络,CPU2核\n内存4G\n硬盘40G,包年\n2020/10/26到期,[启动]\n&#xA;[jiodju90jud]\nJ15  [{edit}],[{tag}] centos,10.98.38.38,运行中,私有网络,CPU2核\n内存4G\n硬盘40G,包年\n2020/10/26到期,[重启]\n[停止]" measuredWidth="614" measuredHeight="209" alternative="#eee">
+    <font/>
+    <items x="5" y="34" width="73" height="17" text="jiodju90jud"/>
+    <items x="37" y="51" width="17" height="17" text=" "/>
+    <items x="90" y="43" width="16" height="17" text=" "/>
+    <items x="574" y="37" width="29" height="15" text="重启"/>
+    <items x="574" y="51" width="29" height="15" text="停止"/>
+    <items x="5" y="91" width="73" height="17" text="jiodju90jud"/>
+    <items x="37" y="108" width="17" height="17" text=" "/>
+    <items x="90" y="100" width="16" height="17" text=" "/>
+    <items x="574" y="92" width="29" height="15" text="启动"/>
+    <items x="5" y="148" width="73" height="17" text="jiodju90jud"/>
+    <items x="37" y="165" width="17" height="17" text=" "/>
+    <items x="90" y="157" width="16" height="17" text=" "/>
+    <items x="574" y="151" width="29" height="15" text="重启"/>
+    <items x="574" y="165" width="29" height="15" text="停止"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="71" x="171" y="131" text="容器实例列表" measuredWidth="104" measuredHeight="25">
+    <font size="16px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="72" x="702" y="115" text="创建实例" measuredWidth="78" measuredHeight="25" background="#674ea7" link="create_docker.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Hotspot" id="73" x="160" y="200" measuredWidth="80" measuredHeight="30" link="docker_detail.screen"/>
+  <widgets xsi:type="model:Hotspot" id="74" x="160" y="315" measuredWidth="80" measuredHeight="30" link="docker_detail.screen"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="14px"/>
+</model:Screen>

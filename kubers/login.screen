@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="8" x="16" y="16" width="793" height="657" text="Browser&#xA;http://www.kubers.com/login" measuredWidth="793" measuredHeight="657">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Tabs" id="11" x="260" y="208" width="249" text="  账号密码登录    ,    手机号登录   " measuredWidth="249" measuredHeight="30" selection="0">
+    <items x="1" y="0" width="130" height="30" text="  账号密码登录    "/>
+    <items link="login_phone.screen" x="131" y="0" width="116" height="30" text="   手机号登录   "/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="13" x="260" y="237" width="249" height="268" measuredWidth="249" measuredHeight="268">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="14" x="312" y="296" width="153" text="用户名/手机号/邮箱" measuredWidth="153" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="15" x="312" y="352" width="153" text="密码" measuredWidth="153" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="16" x="312" y="400" width="153" text="登录" measuredWidth="153" measuredHeight="25" background="#674ea7" link="dashboard.screen">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="17" x="404" y="440" text="注册账号" measuredWidth="61" measuredHeight="23" link="register.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="18" x="312" y="440" text="找回密码" measuredWidth="61" measuredHeight="23" link="resetpwd.screen">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="14px"/>
+</model:Screen>

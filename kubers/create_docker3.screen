@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="8" x="16" y="16" width="793" height="657" text="Browser&#xA;http://www.kubers.com/createdocker" measuredWidth="793" measuredHeight="657">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="21" x="190" y="132" width="137" measuredWidth="137" measuredHeight="6"/>
+  <widgets xsi:type="model:Callout" id="22" x="86" y="120" text="1" measuredWidth="27" measuredHeight="27" background="#f3f3f3" link="create_docker.screen">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="23" x="119" y="125" text="选择配置" measuredWidth="64" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Hotspot" id="24" x="17" y="41" width="26" height="17" measuredWidth="26" measuredHeight="17" link="dashboard.screen"/>
+  <widgets xsi:type="model:Callout" id="25" x="340" y="120" text="2" measuredWidth="27" measuredHeight="27" background="#f3f3f3" link="create_docker2.screen">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="26" x="373" y="123" text="docker配置" measuredWidth="79" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="31" x="460" y="132" width="137" measuredWidth="137" measuredHeight="6"/>
+  <widgets xsi:type="model:Callout" id="32" x="603" y="122" text="3" measuredWidth="27" measuredHeight="27">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="33" x="636" y="125" text="确认订单" measuredWidth="64" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="40" x="680" y="576" text="确定下单" measuredWidth="78" measuredHeight="25" background="#674ea7" link="pay.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="44" x="86" y="192" text="所选配置" measuredWidth="72" measuredHeight="25">
+    <font size="16px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="46" x="86" y="240" text="计费方式：" measuredWidth="78" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="47" x="176" y="239" text="包年包月" measuredWidth="64" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="48" x="86" y="280" text="购买数量：" measuredWidth="78" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="50" x="383" y="280" text="系统磁盘：" measuredWidth="78" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="51" x="86" y="342" width="631" measuredWidth="631" measuredHeight="6" foreground="#ccc"/>
+  <widgets xsi:type="model:Label" id="52" x="383" y="240" text="实例名称：" measuredWidth="78" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="57" x="176" y="280" text="1台" measuredWidth="30" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="58" x="472" y="239" text="J20" measuredWidth="32" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="59" x="480" y="280" text="40G" measuredWidth="35" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="60" x="86" y="384" text="购买时长：" measuredWidth="88" measuredHeight="25">
+    <font size="16px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="61" x="163" y="432" width="434" text="一周, 一个月, 6个月,一年,两年,五年" measuredWidth="434" measuredHeight="30" selection="3">
+    <font/>
+    <items x="0" y="0" width="67" height="30" text="一周"/>
+    <items x="67" y="0" width="85" height="30" text="一个月"/>
+    <items x="152" y="0" width="78" height="30" text="6个月"/>
+    <items x="230" y="0" width="66" height="30" text="一年"/>
+    <items x="296" y="0" width="66" height="30" text="两年"/>
+    <items x="362" y="0" width="72" height="30" text="五年"/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="62" x="163" y="480" text="自动续费" measuredWidth="79" measuredHeight="25" selected="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="63" x="90" y="528" text="[《云服务协议》]" measuredWidth="121" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="65" x="596" y="576" text="上一步" measuredWidth="63" measuredHeight="25" background="#674ea7" link="create_docker2.screen">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="14px"/>
+</model:Screen>

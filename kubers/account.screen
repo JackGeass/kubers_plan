@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="19" x="16" y="16" width="793" height="657" text="Browser&#xA;http://www.kubers.com/dashboard" measuredWidth="793" measuredHeight="657">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="20" x="679" y="76" measuredWidth="16" measuredHeight="16" icon="bell (small)"/>
+  <widgets xsi:type="model:Icon" id="21" x="635" y="76" measuredWidth="16" measuredHeight="16" icon="book (small)" link="documents.screen"/>
+  <widgets xsi:type="model:Image" id="22" x="23" y="82" width="47" height="39" measuredWidth="47" measuredHeight="39"/>
+  <widgets xsi:type="model:List" id="23" x="17" y="136" width="128" height="537" text="概览&#xA;容器资源&#xA;硬盘资源&#xA;运维监控&#xA;" measuredWidth="128" measuredHeight="537" rowHeight="41" horizontalLines="true">
+    <font bold="false"/>
+    <items link="dashboard.screen" x="0" y="2" width="128" height="41" text="概览"/>
+    <items link="docker_list.screen" x="0" y="43" width="128" height="41" text="容器资源"/>
+    <items x="0" y="84" width="128" height="41" text="硬盘资源"/>
+    <items link="monitor.screen" x="0" y="125" width="128" height="41" text="运维监控"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="24" x="143" y="96" width="665" measuredWidth="665" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="25" x="71" y="87" text="Kubers" measuredWidth="68" measuredHeight="29" textAlignment="Center">
+    <font size="18px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="26" x="140" y="66" height="71" measuredWidth="6" measuredHeight="71"/>
+  <widgets xsi:type="model:Label" id="27" x="577" y="73" text="费用" measuredWidth="35" measuredHeight="23" textAlignment="Center">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="28" x="720" y="69" text="{user} 宋江" measuredWidth="60" measuredHeight="29" customId="user_popup">
+    <items x="0" y="2" width="60" height="25" text="{user} 宋江"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="29" x="168" y="128" text="账号设置" measuredWidth="72" measuredHeight="25">
+    <font size="16px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="30" x="192" y="176" text="手机号：18537373737" measuredWidth="162" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="31" x="196" y="224" text="邮箱：" measuredWidth="49" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="32" x="408" y="221" text="绑定邮箱" measuredWidth="78" measuredHeight="25" background="#674ea7">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="33" x="256" y="221" width="137" measuredWidth="137" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="34" x="196" y="274" text="修改密码：" measuredWidth="78" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="35" x="408" y="271" text="修改密码" measuredWidth="78" measuredHeight="25" background="#674ea7">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="36" x="273" y="271" width="120" measuredWidth="120" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="37" x="168" y="344" text="认证信息" measuredWidth="72" measuredHeight="25">
+    <font size="16px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="38" x="168" y="321" width="612" measuredWidth="612" measuredHeight="6" foreground="#ccc"/>
+  <widgets xsi:type="model:Label" id="39" x="216" y="393" text="联系人姓名" measuredWidth="78" measuredHeight="23" textAlignment="Right">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="40" x="320" y="391" width="81" text="hhhe" measuredWidth="81" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="41" x="174" y="432" text="联系人身份证号码" measuredWidth="121" measuredHeight="23" textAlignment="Right">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="42" x="320" y="431" width="137" text="643209***8989" measuredWidth="137" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="43" x="216" y="475" text="联系人地址" measuredWidth="78" measuredHeight="23" textAlignment="Right">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="44" x="320" y="474" width="137" text="山东水寨梁山" measuredWidth="137" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="45" x="350" y="608" text="提交认证" measuredWidth="78" measuredHeight="25" background="#674ea7">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="47" x="295" y="528" text="身份证正面" measuredWidth="75" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="48" x="392" y="528" text="身份证反面" measuredWidth="75" measuredHeight="58" textAlignment="Center" icon="image (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="49" x="256" y="346" text="认证中" measuredWidth="43" measuredHeight="21" textAlignment="Right" foreground="#ccc">
+    <font size="12px" bold="true"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="14px"/>
+</model:Screen>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="19" x="16" y="16" width="793" height="657" text="Browser&#xA;http://www.kubers.com/subaccount" measuredWidth="793" measuredHeight="657">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="20" x="679" y="76" measuredWidth="16" measuredHeight="16" icon="bell (small)"/>
+  <widgets xsi:type="model:Icon" id="21" x="635" y="76" measuredWidth="16" measuredHeight="16" icon="book (small)" link="documents.screen"/>
+  <widgets xsi:type="model:Image" id="22" x="23" y="82" width="47" height="39" measuredWidth="47" measuredHeight="39"/>
+  <widgets xsi:type="model:List" id="23" x="17" y="136" width="128" height="537" text="概览&#xA;容器资源&#xA;硬盘资源&#xA;运维监控&#xA;" measuredWidth="128" measuredHeight="537" rowHeight="41" horizontalLines="true">
+    <font bold="false"/>
+    <items link="dashboard.screen" x="0" y="2" width="128" height="41" text="概览"/>
+    <items link="docker_list.screen" x="0" y="43" width="128" height="41" text="容器资源"/>
+    <items x="0" y="84" width="128" height="41" text="硬盘资源"/>
+    <items link="monitor.screen" x="0" y="125" width="128" height="41" text="运维监控"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="24" x="143" y="96" width="665" measuredWidth="665" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="25" x="71" y="87" text="Kubers" measuredWidth="68" measuredHeight="29" textAlignment="Center">
+    <font size="18px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="26" x="140" y="66" height="71" measuredWidth="6" measuredHeight="71"/>
+  <widgets xsi:type="model:Label" id="27" x="577" y="73" text="费用" measuredWidth="35" measuredHeight="23" textAlignment="Center">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="28" x="720" y="69" text="{user} 宋江" measuredWidth="60" measuredHeight="29" customId="user_popup">
+    <items x="0" y="2" width="60" height="25" text="{user} 宋江"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="29" x="168" y="168" text="子账号列表" measuredWidth="88" measuredHeight="25">
+    <font size="16px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="50" x="168" y="352" text="权限管理" measuredWidth="72" measuredHeight="25">
+    <font size="16px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="51" x="168" y="208" width="593" text="显示名称/用户登录名称,备注,创建时间,权限,操作&#xA;Peter\nPeter@sxyhhe.kubers.com,Severin,2019-06-26,[容器操作],[编辑权限]&#xA;Henri\nHenri@sxyhhe.kubers.com,Severin,2019-07-20,[root],[编辑权限]" measuredWidth="593" measuredHeight="107" alternative="#eee">
+    <font/>
+    <items x="425" y="35" width="58" height="15" text="容器操作"/>
+    <items x="510" y="35" width="58" height="15" text="编辑权限"/>
+    <items x="425" y="74" width="27" height="17" text="root"/>
+    <items x="510" y="75" width="58" height="15" text="编辑权限"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="52" x="669" y="172" text="创建子账号" measuredWidth="92" measuredHeight="25" background="#674ea7">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="54" x="288" y="119" text="https://signin.kubers.com/sxyhhe.kubers.com/login.htm" measuredWidth="318" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="55" x="168" y="120" text="子账号登录地址：" measuredWidth="121" measuredHeight="23">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="14px"/>
+</model:Screen>

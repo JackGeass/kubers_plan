@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="8" x="16" y="16" width="793" height="657" text="Browser&#xA;http://www.kubers.com/document" measuredWidth="793" measuredHeight="657">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="19" x="224" y="352" width="400" height="120" text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." measuredWidth="400" measuredHeight="120">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="20" x="224" y="88" text="A paragraph of *text*. It [can] _have_ [links].&#xA;* A bullet&#xA;* List&#xA;## Is created&#xA;## Like this" measuredWidth="243" measuredHeight="85">
+    <font/>
+    <items x="147" y="0" width="24" height="17" text="can"/>
+    <items x="208" y="0" width="30" height="17" text="links"/>
+  </widgets>
+  <widgets xsi:type="model:Tree" id="23" x="16" y="68" width="185" height="605" text="Folder One&#xA;-Folder Two&#xA;--File One&#xA;--File Two&#xA;v Collapse Arrow&#xA;-[>] Closed Folder&#xA;-[v] Open Folder&#xA;> Expand Arrow&#xA;[-] Collapse&#xA;-[+] Expand&#xA;[] You can have&#xA;[x] Checkboxes&#xA;() And even radio buttons&#xA;{attachment} Or just any other icon&#xA;[_] And no icon too" measuredWidth="185" measuredHeight="605">
+    <items x="0" y="5" width="185" height="23" text="Folder One"/>
+    <items x="0" y="28" width="185" height="23" text="-Folder Two"/>
+    <items x="0" y="51" width="185" height="23" text="--File One"/>
+    <items x="0" y="74" width="185" height="23" text="--File Two"/>
+    <items x="0" y="97" width="185" height="23" text="v Collapse Arrow"/>
+    <items x="0" y="120" width="185" height="23" text="-[>] Closed Folder"/>
+    <items x="0" y="143" width="185" height="23" text="-[v] Open Folder"/>
+    <items x="0" y="166" width="185" height="23" text="> Expand Arrow"/>
+    <items x="0" y="189" width="185" height="23" text="[-] Collapse"/>
+    <items x="0" y="212" width="185" height="23" text="-[+] Expand"/>
+    <items x="0" y="235" width="185" height="23" text="[] You can have"/>
+    <items x="0" y="258" width="185" height="23" text="[x] Checkboxes"/>
+    <items x="0" y="281" width="185" height="23" text="() And even radio buttons"/>
+    <items x="0" y="304" width="185" height="23" text="{attachment} Or just any other icon"/>
+    <items x="0" y="327" width="185" height="23" text="[_] And no icon too"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="24" x="224" y="216" text="A paragraph of *text*. It [can] _have_ [links].&#xA;* A bullet&#xA;* List&#xA;## Is created&#xA;## Like this" measuredWidth="243" measuredHeight="85">
+    <font/>
+    <items x="147" y="0" width="24" height="17" text="can"/>
+    <items x="208" y="0" width="30" height="17" text="links"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="26" x="232" y="520" text="A paragraph of *text*. It [can] _have_ [links].&#xA;* A bullet&#xA;* List&#xA;## Is created&#xA;## Like this" measuredWidth="243" measuredHeight="85">
+    <font/>
+    <items x="147" y="0" width="24" height="17" text="can"/>
+    <items x="208" y="0" width="30" height="17" text="links"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="27" x="752" y="636" text="back" measuredWidth="52" measuredHeight="27" link="dashboard.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Hotspot" id="28" x="17" y="34" width="23" measuredWidth="23" measuredHeight="30" link="dashboard.screen"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="14px"/>
+</model:Screen>

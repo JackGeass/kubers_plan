@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="8" x="16" y="16" width="793" height="657" text="Browser&#xA;http://www.kubers.com/createdocker" measuredWidth="793" measuredHeight="657">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="21" x="190" y="132" width="137" measuredWidth="137" measuredHeight="6"/>
+  <widgets xsi:type="model:Callout" id="22" x="86" y="120" text="1" measuredWidth="27" measuredHeight="27" background="#f3f3f3" link="create_docker.screen">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="23" x="119" y="125" text="选择配置" measuredWidth="64" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Hotspot" id="24" x="17" y="41" width="26" height="17" measuredWidth="26" measuredHeight="17" link="dashboard.screen"/>
+  <widgets xsi:type="model:Callout" id="25" x="340" y="120" text="2" measuredWidth="27" measuredHeight="27">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="26" x="373" y="123" text="docker配置" measuredWidth="79" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="31" x="460" y="132" width="137" measuredWidth="137" measuredHeight="6"/>
+  <widgets xsi:type="model:Callout" id="32" x="603" y="122" text="3" measuredWidth="27" measuredHeight="27" background="#eee">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="33" x="636" y="125" text="确认订单" measuredWidth="64" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="40" x="680" y="576" text="下一步" measuredWidth="63" measuredHeight="25" background="#674ea7" link="create_docker3.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="44" x="86" y="192" text="登录设置" measuredWidth="64" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="45" x="163" y="279" width="110" text="  **" measuredWidth="110" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="46" x="86" y="240" text="登录名：" measuredWidth="64" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="47" x="176" y="239" text="root" measuredWidth="33" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="48" x="86" y="280" text="登录密码：" measuredWidth="78" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="49" x="163" y="320" width="110" text="  **" measuredWidth="110" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="50" x="86" y="321" text="确认密码：" measuredWidth="78" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="51" x="82" y="368" width="631" measuredWidth="631" measuredHeight="6" foreground="#ccc"/>
+  <widgets xsi:type="model:Label" id="52" x="82" y="400" text="实例名称：" measuredWidth="78" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="53" x="163" y="399" width="110" text="J20" measuredWidth="110" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="54" x="86" y="448" text="实例描述：" measuredWidth="78" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="56" x="163" y="456" width="178" height="65" text="A *paragraph* of text&#xA;A _second_ row of text" measuredWidth="178" measuredHeight="65">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="57" x="585" y="576" text="上一步" measuredWidth="63" measuredHeight="25" background="#674ea7" link="create_docker.screen">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="14px"/>
+</model:Screen>
